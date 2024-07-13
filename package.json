@@ -1,0 +1,33 @@
+{
+   "name": "Examen_1-KenethGonzalez",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "type": "commonjs",
+   "devDependencies": {
+      "@types/bcryptjs": "^2.4.6",
+      "@types/cors": "^2.8.17",
+      "@types/express": "^4.17.21",
+      "@types/jsonwebtoken": "^9.0.6",
+      "@types/node": "^16.18.101",
+      "ts-node": "10.9.1",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^4.5.2"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.1",
+      "class-validator": "^0.14.1",
+      "cors": "^2.8.5",
+      "express": "^4.17.2",
+      "helmet": "^7.1.0",
+      "install": "^0.13.0",
+      "jsonwebtoken": "^9.0.2",
+      "mysql2": "^3.10.2",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.20"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   }
+}
